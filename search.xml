@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>kankolle-2021-春活记录-序章</title>
-    <url>/2021/04/22/KanKolle01/</url>
-    <content><![CDATA[<h2 id="内容介绍"><a href="#内容介绍" class="headerlink" title="内容介绍"></a>内容介绍</h2><p>本次将会记录砍口垒五月上旬开启的春活进击配置情况<br><br>文章分类：kankolle</p>
-<h2 id="进击前练度"><a href="#进击前练度" class="headerlink" title="进击前练度"></a>进击前练度</h2><p><img src="2021-04-23-20-20-29.png"></p>
-<h2 id="资源暂存"><a href="#资源暂存" class="headerlink" title="资源暂存"></a>资源暂存</h2><p><img src="2021-04-23-20-20-50.png"></p>
-<h2 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h2><p>后面将会以地图为文章单位逐个记录击破记录<br><br>目标: <font color = 'red'>通过关底</font></p>
+    <title>博客首页</title>
+    <url>/2021/04/22/hello-world/</url>
+    <content><![CDATA[<h2 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h2><h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><blockquote>
+<p>这里是 追雨折花 的个人博客，基于gitPages搭建，使用next主题，用于各种知识分享的站点</p>
+</blockquote>
+<h3 id="个人站点"><a href="#个人站点" class="headerlink" title="个人站点"></a>个人站点</h3><blockquote>
+<p>平时个人会在其他站点发布自己的一些投稿与分享，可供访问学习<br></p>
+</blockquote>
+<blockquote>
+<p>Bilibili : <a href="https://space.bilibili.com/482044660">追雨折花</a><br><br>gitHub : <a href="https://github.com/haiyanqipaojiu">haiyanqipaojiu</a></p>
+</blockquote>
+<h3 id="内容包含"><a href="#内容包含" class="headerlink" title="内容包含"></a>内容包含</h3><blockquote>
+<p>算法、前端、后端、UE、原型设计、MD、语言、砍口垒等一系列学习与交流笔记</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>kankolle</category>
+        <category>博客构建</category>
       </categories>
       <tags>
-        <tag>kankolle</tag>
+        <tag>个人介绍</tag>
+        <tag>markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -120,27 +129,18 @@
       </tags>
   </entry>
   <entry>
-    <title>博客首页</title>
-    <url>/2021/04/22/hello-world/</url>
-    <content><![CDATA[<h2 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h2><h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><blockquote>
-<p>这里是 追雨折花 的个人博客，基于gitPages搭建，使用next主题，用于各种知识分享的站点</p>
-</blockquote>
-<h3 id="个人站点"><a href="#个人站点" class="headerlink" title="个人站点"></a>个人站点</h3><blockquote>
-<p>平时个人会在其他站点发布自己的一些投稿与分享，可供访问学习<br></p>
-</blockquote>
-<blockquote>
-<p>Bilibili : <a href="https://space.bilibili.com/482044660">追雨折花</a><br><br>gitHub : <a href="https://github.com/haiyanqipaojiu">haiyanqipaojiu</a></p>
-</blockquote>
-<h3 id="内容包含"><a href="#内容包含" class="headerlink" title="内容包含"></a>内容包含</h3><blockquote>
-<p>算法、前端、后端、UE、原型设计、MD、语言、砍口垒等一系列学习与交流笔记</p>
-</blockquote>
+    <title>kankolle-2021-春活记录-序章</title>
+    <url>/2021/04/22/KanKolle01/</url>
+    <content><![CDATA[<h2 id="内容介绍"><a href="#内容介绍" class="headerlink" title="内容介绍"></a>内容介绍</h2><p>本次将会记录砍口垒五月上旬开启的春活进击配置情况<br><br>文章分类：kankolle</p>
+<h2 id="进击前练度"><a href="#进击前练度" class="headerlink" title="进击前练度"></a>进击前练度</h2><p><img src="/2021/04/22/KanKolle01/2021-04-23-20-20-29.png"></p>
+<h2 id="资源暂存"><a href="#资源暂存" class="headerlink" title="资源暂存"></a>资源暂存</h2><p><img src="/2021/04/22/KanKolle01/2021-04-23-20-20-50.png"></p>
+<h2 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h2><p>后面将会以地图为文章单位逐个记录击破记录<br><br>目标: <font color="red">通过关底</font></p>
 ]]></content>
       <categories>
-        <category>博客构建</category>
+        <category>kankolle</category>
       </categories>
       <tags>
-        <tag>个人介绍</tag>
-        <tag>markdown</tag>
+        <tag>kankolle</tag>
       </tags>
   </entry>
   <entry>
