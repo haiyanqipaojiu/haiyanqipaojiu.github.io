@@ -144,6 +144,21 @@
       </tags>
   </entry>
   <entry>
+    <title>关于git &#39;OpenSSL SSL_read： Connection was reset, errno 10054&#39; 的解决</title>
+    <url>/2021/04/22/git-ssl/</url>
+    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>在进行hexo博文上传时 ，链接github产生如下网络错误<br><img src="/2021/04/22/git-ssl/2021-04-23-20-41-35.png"></p>
+<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>此问题可能是由于网络波动，关闭使用SSL验证链接即可</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify &quot;false&quot;</span><br></pre></td></tr></table></figure>
+<p>再次上传成功<br><br><img src="/2021/04/22/git-ssl/2021-04-23-20-43-14.png"></p>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>html标签</title>
     <url>/2021/04/22/html%E6%A0%87%E7%AD%BE/</url>
     <content><![CDATA[<!-- START doctoc generated TOC please keep comment here to allow auto update -->
