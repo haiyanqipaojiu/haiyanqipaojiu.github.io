@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>博客首页</title>
-    <url>/2021/04/22/hello-world/</url>
-    <content><![CDATA[<h2 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h2><h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><blockquote>
-<p>这里是 追雨折花 的个人博客，基于gitPages搭建，使用next主题，用于各种知识分享的站点</p>
-</blockquote>
-<h3 id="个人站点"><a href="#个人站点" class="headerlink" title="个人站点"></a>个人站点</h3><blockquote>
-<p>平时个人会在其他站点发布自己的一些投稿与分享，可供访问学习<br></p>
-</blockquote>
-<blockquote>
-<p>Bilibili : <a href="https://space.bilibili.com/482044660">追雨折花</a><br><br>gitHub : <a href="https://github.com/haiyanqipaojiu">haiyanqipaojiu</a></p>
-</blockquote>
-<h3 id="内容包含"><a href="#内容包含" class="headerlink" title="内容包含"></a>内容包含</h3><blockquote>
-<p>算法、前端、后端、UE、原型设计、MD、语言、砍口垒等一系列学习与交流笔记</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>博客构建</category>
-      </categories>
-      <tags>
-        <tag>个人介绍</tag>
-        <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>kankolle-2021-春活记录-序章</title>
     <url>/2021/04/23/KanKolle01/</url>
     <content><![CDATA[<h2 id="内容介绍"><a href="#内容介绍" class="headerlink" title="内容介绍"></a>内容介绍</h2><p>本次将会记录砍口垒五月上旬开启的春活进击配置情况<br><br>文章分类：kankolle</p>
@@ -40,18 +16,26 @@
       </tags>
   </entry>
   <entry>
-    <title>关于git &#39;OpenSSL SSL_read： Connection was reset, errno 10054&#39; 的解决</title>
-    <url>/2021/04/23/git-ssl/</url>
-    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>在进行hexo博文上传时 ，链接github产生如下网络错误<br><img src="/2021/04/23/git-ssl/2021-04-23-20-41-35.png"></p>
-<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>此问题可能是由于网络波动，关闭使用SSL验证链接即可</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify &quot;false&quot;</span><br></pre></td></tr></table></figure>
-<p>再次上传成功<br><br><img src="/2021/04/23/git-ssl/2021-04-23-20-43-14.png"></p>
+    <title>Rp固定页面浮块</title>
+    <url>/2021/04/27/Rp%E5%9B%BA%E5%AE%9A%E9%A1%B5%E9%9D%A2%E6%B5%AE%E5%9D%97/</url>
+    <content><![CDATA[<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><ul>
+<li>所需要在页面进行浮动的块</li>
+<li>动态面板</li>
+</ul>
+<h1 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h1><h2 id="建立参考"><a href="#建立参考" class="headerlink" title="建立参考"></a>建立参考</h2><p>首先建立参考矩形，可以让我们能明晰地检查浮块效果<br><img src="/2021/04/27/Rp%E5%9B%BA%E5%AE%9A%E9%A1%B5%E9%9D%A2%E6%B5%AE%E5%9D%97/2021-04-27-02-27-45.png"><br>注意建立组合<code>ctrl+G</code>，建组是一个好习惯</p>
+<h2 id="建立所要浮动的块"><a href="#建立所要浮动的块" class="headerlink" title="建立所要浮动的块"></a>建立所要浮动的块</h2><p>建立所要浮动的块，并将其置于页脚处（参考系即为手机底端）<br><img src="/2021/04/27/Rp%E5%9B%BA%E5%AE%9A%E9%A1%B5%E9%9D%A2%E6%B5%AE%E5%9D%97/2021-04-27-02-30-08.png"></p>
+<h2 id="添加动态面板"><a href="#添加动态面板" class="headerlink" title="添加动态面板"></a>添加动态面板</h2><p>从此处拖出动态面板<br><br><img src="/2021/04/27/Rp%E5%9B%BA%E5%AE%9A%E9%A1%B5%E9%9D%A2%E6%B5%AE%E5%9D%97/2021-04-27-02-31-20.png"></p>
+<p>从左侧概要讲所要浮动的块加入为动态面板任意state的子元素<br><br><img src="/2021/04/27/Rp%E5%9B%BA%E5%AE%9A%E9%A1%B5%E9%9D%A2%E6%B5%AE%E5%9D%97/2021-04-27-02-33-42.png"></p>
+<p><img src="/2021/04/27/Rp%E5%9B%BA%E5%AE%9A%E9%A1%B5%E9%9D%A2%E6%B5%AE%E5%9D%97/2021-04-27-02-33-59.png"></p>
+<h2 id="设定动态面板"><a href="#设定动态面板" class="headerlink" title="设定动态面板"></a>设定动态面板</h2><p>讲动态面板同样置于页脚，和浮块等大同位置<br><img src="/2021/04/27/Rp%E5%9B%BA%E5%AE%9A%E9%A1%B5%E9%9D%A2%E6%B5%AE%E5%9D%97/2021-04-27-02-35-45.png"></p>
+<p>进行动态面板上相关的设置<br><img src="/2021/04/27/Rp%E5%9B%BA%E5%AE%9A%E9%A1%B5%E9%9D%A2%E6%B5%AE%E5%9D%97/2021-04-27-02-37-40.png"></p>
+<h2 id="预览效果"><a href="#预览效果" class="headerlink" title="预览效果"></a>预览效果</h2><p><img src="/2021/04/27/Rp%E5%9B%BA%E5%AE%9A%E9%A1%B5%E9%9D%A2%E6%B5%AE%E5%9D%97/2021-04-27-02-38-37.png"></p>
 ]]></content>
       <categories>
-        <category>git</category>
+        <category>原型设计</category>
       </categories>
       <tags>
-        <tag>git</tag>
+        <tag>原型设计</tag>
       </tags>
   </entry>
   <entry>
@@ -156,6 +140,21 @@
       </categories>
       <tags>
         <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于git &#39;OpenSSL SSL_read： Connection was reset, errno 10054&#39; 的解决</title>
+    <url>/2021/04/23/git-ssl/</url>
+    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>在进行hexo博文上传时 ，链接github产生如下网络错误<br><img src="/2021/04/23/git-ssl/2021-04-23-20-41-35.png"></p>
+<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>此问题可能是由于网络波动，关闭使用SSL验证链接即可</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify &quot;false&quot;</span><br></pre></td></tr></table></figure>
+<p>再次上传成功<br><br><img src="/2021/04/23/git-ssl/2021-04-23-20-43-14.png"></p>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -288,6 +287,30 @@
       </categories>
       <tags>
         <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客首页</title>
+    <url>/2021/04/22/hello-world/</url>
+    <content><![CDATA[<h2 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h2><h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><blockquote>
+<p>这里是 追雨折花 的个人博客，基于gitPages搭建，使用next主题，用于各种知识分享的站点</p>
+</blockquote>
+<h3 id="个人站点"><a href="#个人站点" class="headerlink" title="个人站点"></a>个人站点</h3><blockquote>
+<p>平时个人会在其他站点发布自己的一些投稿与分享，可供访问学习<br></p>
+</blockquote>
+<blockquote>
+<p>Bilibili : <a href="https://space.bilibili.com/482044660">追雨折花</a><br><br>gitHub : <a href="https://github.com/haiyanqipaojiu">haiyanqipaojiu</a></p>
+</blockquote>
+<h3 id="内容包含"><a href="#内容包含" class="headerlink" title="内容包含"></a>内容包含</h3><blockquote>
+<p>算法、前端、后端、UE、原型设计、MD、语言、砍口垒等一系列学习与交流笔记</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>博客构建</category>
+      </categories>
+      <tags>
+        <tag>个人介绍</tag>
+        <tag>markdown</tag>
       </tags>
   </entry>
 </search>
