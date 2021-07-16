@@ -29,7 +29,7 @@
     <url>/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/</url>
     <content><![CDATA[<h1 id="后端说明文档"><a href="#后端说明文档" class="headerlink" title="后端说明文档"></a>后端说明文档</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a><strong>简介</strong></h2><p>使用Springboot+mybaits+mysql实现</p>
 <p>项目结构主要分为返回类控制api，跨域控制config，业务控制controller，实体类entity，mapper层接口与sql数据交换，service层接口，启动类。</p>
-<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210714150154783.png" alt="image-20210714150154783"></p>
+<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210714150154783.png"></p>
 <h2 id="构建"><a href="#构建" class="headerlink" title="构建"></a>构建</h2><p><strong>数据库建立在：</strong></p>
 <p>服务器：121.196.144.233 </p>
 <p>端口：3306</p>
@@ -43,17 +43,17 @@
 <p>例数据包：</p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;user_loginNumber&quot;</span>: <span class="string">&quot;15290433011&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;user_password&quot;</span>: <span class="string">&quot;123456&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716135402565.png" alt="image-20210716135402565"></p>
+<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716135402565.png"></p>
 <h4 id="2-用户注册接口"><a href="#2-用户注册接口" class="headerlink" title="2.用户注册接口"></a>2.用户注册接口</h4><p>接口地址：<a href="http://42.192.89.31:8888/user/register">http://42.192.89.31:8888/user/register</a></p>
 <p>例数据包：</p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;user_name&quot;</span> : <span class="string">&quot;梁泽生&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;user_loginNumber&quot;</span> : <span class="string">&quot;11011&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;user_password&quot;</span> : <span class="string">&quot;12345611&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;user_sex&quot;</span> : <span class="number">1</span>,</span><br><span class="line">    <span class="attr">&quot;user_avaturl&quot;</span> : <span class="string">&quot;&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716142802980.png" alt="image-20210716142802980"></p>
+<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716142802980.png"></p>
 <h4 id="3-用户信息修改接口"><a href="#3-用户信息修改接口" class="headerlink" title="3.用户信息修改接口"></a>3.用户信息修改接口</h4><p>接口地址：<a href="http://42.192.89.31:8888/user/modify">http://42.192.89.31:8888/user/modify</a></p>
 <p>例数据包：</p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;user_id&quot;</span> : <span class="string">&quot;1&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;user_name&quot;</span> : <span class="string">&quot;gj&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;user_loginNumber&quot;</span> : <span class="string">&quot;1888888&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;user_password&quot;</span> : <span class="string">&quot;tes1&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;user_sex&quot;</span> : <span class="number">1</span>,</span><br><span class="line">    <span class="attr">&quot;user_avaturl&quot;</span> : <span class="string">&quot;&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716142820976.png" alt="image-20210716142820976"></p>
+<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716142820976.png"></p>
 <h3 id="用户类-工具接口"><a href="#用户类-工具接口" class="headerlink" title="用户类-工具接口"></a>用户类-工具接口</h3><h4 id="1-用户名重复验证接口"><a href="#1-用户名重复验证接口" class="headerlink" title="1.用户名重复验证接口"></a>1.用户名重复验证接口</h4><p>接口：<a href="http://42.192.89.31:8888/user/isusernamerepeat">http://42.192.89.31:8888/user/isusernamerepeat</a></p>
 <p>例：</p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;user_name&quot;</span>:<span class="string">&quot;lzs&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -72,26 +72,26 @@
 <p>例：</p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;user_id&quot;</span> : <span class="number">1</span>,</span><br><span class="line">    <span class="attr">&quot;postAsk_title&quot;</span> : <span class="string">&quot;abcdefg是啥？&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;postAsk_discribe&quot;</span> : <span class="string">&quot; 出现问题原因：\n！！！首先查看这个方法是不是重载父类的方法，如果没有父类，那么使用了@override一定会报错；\n！！！查看重载时是不是方法名/参数有区别；\n若以上问题都不存在，则可能是以下原因：\n##引用IDK5版本中存在bug；@override是JDK5就已经有了，但是不支持对接口的实现，认为这不是override报错。JDK6修复了这个bug,无论是父类方法的覆盖还是对接口的实现都可以加上注解@Override.&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716162000771.png" alt="image-20210716162000771"></p>
+<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716162000771.png"></p>
 <h4 id="2-修改问题接口"><a href="#2-修改问题接口" class="headerlink" title="2.修改问题接口"></a>2.修改问题接口</h4><p>接口：<a href="http://42.192.89.31:8888/postask/askmodify">http://42.192.89.31:8888/postask/askmodify</a></p>
 <p>例；</p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;postAsk_id&quot;</span> : <span class="number">1</span>,</span><br><span class="line">    <span class="attr">&quot;postAsk_title&quot;</span> : <span class="string">&quot;abc是啥？&quot;</span> ,</span><br><span class="line">    <span class="attr">&quot;postAsk_discribe&quot;</span> : <span class="string">&quot; 字母表？出现问题原因：\n！！！首先查看这个方法是不是重载父类的方法，如果没有父类，那么使用了@override一定会报错；\n！！！查看重载时是不是方法名/参数有区别；\n若以上问题都不存在，则可能是以下原因：\n##引用IDK5版本中存在bug；@override是JDK5就已经有了，但是不支持对接口的实现，认为这不是override报错。JDK6修复了这个bug,无论是父类方法的覆盖还是对接口的实现都可以加上注解@Override.&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716162107640.png" alt="image-20210716162107640"></p>
+<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716162107640.png"></p>
 <h4 id="3-用户收藏问题接口"><a href="#3-用户收藏问题接口" class="headerlink" title="3.用户收藏问题接口"></a>3.用户收藏问题接口</h4><p>接口：<a href="http://42.192.89.31:8888/postask/asksubscribe">http://42.192.89.31:8888/postask/asksubscribe</a></p>
 <p>例：</p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;user_id&quot;</span> : <span class="number">2</span>,</span><br><span class="line">    <span class="attr">&quot;postAsk_id&quot;</span>:<span class="number">2</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 
 
-<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716162148484.png" alt="image-20210716162148484"></p>
+<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716162148484.png"></p>
 <h4 id="4-用户取消收藏问题接口"><a href="#4-用户取消收藏问题接口" class="headerlink" title="4.用户取消收藏问题接口"></a>4.用户取消收藏问题接口</h4><p>接口：<a href="http://42.192.89.31:8888/postask/asksubscribecancel">http://42.192.89.31:8888/postask/asksubscribecancel</a></p>
 <p>例：</p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;user_id&quot;</span> : <span class="number">2</span>,</span><br><span class="line">    <span class="attr">&quot;postAsk_id&quot;</span>:<span class="number">2</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 
-<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716162215349.png" alt="image-20210716162215349"></p>
+<p><img src="/2021/07/16/%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/image-20210716162215349.png"></p>
 <h2 id="错误解决"><a href="#错误解决" class="headerlink" title="错误解决"></a>错误解决</h2><p><strong>1.项目持续在云服务器执行，使用screen依赖</strong></p>
 <p>[Linux系统SSH客户端断开后保持进程继续运行配置方法 - 阿里云 (aliyun.com)</p>
 <p><a href="https://help.aliyun.com/knowledge_detail/42523.html?spm=5176.2000002.0.0.616d7b0fuIjmqa">Linux系统SSH客户端断开后保持进程继续运行配置方法 - 阿里云 (aliyun.com)</a></p>
